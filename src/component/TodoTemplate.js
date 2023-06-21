@@ -83,7 +83,7 @@ const TodoTemplate = () => {
     // setTodos(copyTodos);
 
     fetch(API_BASE_URL, {
-      method : "PUT",
+      method : 'PUT',
       headers : {'content-type' : 'application/json'},
       body: JSON.stringify({
         'done' : !done,
